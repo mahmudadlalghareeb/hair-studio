@@ -438,8 +438,8 @@ hr {
 
 @media screen and (max-width: 480px) {
   .icons span {
-    right: 6%;
-    top: 5%;
+    right: 4%;
+    top: 6%;
     width: 35px;
     font-size: 18px;
     padding: 5px;
