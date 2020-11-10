@@ -437,10 +437,16 @@ hr {
 }
 
 @media screen and (max-width: 480px) {
-   .icons span {
+  .icons span {
+    right: 6%;
+    top: 4%;
     width: 35px;
     font-size: 18px;
     padding: 5px;
+  }
+
+  header nav ul {
+    margin-top: 60px;
   }
   .banner-content h3 {
     font-size: 33px;
