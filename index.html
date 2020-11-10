@@ -255,7 +255,7 @@
       </div>
     </section>
     <script src="./js/all.min.js"></script>
-    <script>
+   <script>
       var header = document.getElementById("header"),
         span = document.getElementsByClassName("click"),
         open = document.getElementById("open"),
@@ -267,14 +267,16 @@
         span[i].addEventListener("click", function () {
           if (header.style.right == "-275px") {
             header.style.right = "0";
+            close.style.display = "block";
           } else {
             header.style.right = "-275px";
+            close.style.display = "none";
           }
         });
       }
 
       if (window.outerWidth == "360") {
-        header.style.width = "200px";
+        header.style.width = "50vw";
       }
     </script>
   </body>
